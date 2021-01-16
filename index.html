@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guinong(분석데이터 제공사이트)</title>
+    <script src="https://kit.fontawesome.com/fbf96448cb.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="image/leaf.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- home -->
+    <section id="home">
+    <div class="home__container">
+        <img src="image/leaf.png" alt="Guinong photo" class="home__photo"/>
+        <h1 class="home__title">안녕하세요.<br/>직업, 채용 분석데이터 제공페이지입니다.</h1>   
+            <!-- nav bar -->
+    <nav id="navbar">
+        <div class="navbar__menu">
+            <ul class="navbar__menu__ul">
+                <a href="/index.html"><li class="navbar__menu__item" data-link="#home"><i class="fas fa-home"></i><br/>홈</li></a>
+                <a href="/index_data.html"><li class="navbar__menu__item"><i class="far fa-clipboard"></i><br/>수집데이터</li></a>
+                <a href="/index_chart.html"><li class="navbar__menu__item"><i class="fas fa-chart-line"></i><br/>차트데이터</li></a>
+                <a href="/index_about.html"><li class="navbar__menu__item" data-link="#contact"><i class="fas fa-users"></i><br/>소개</li></a>
+            </ul>
+        </div>
+    </nav>
+        <button class="home__contact">Contact Us</button>
+    </div>       
+    </section>
+    <!-- intro -->
+    <section class="intro">
+        <div class="intro__desc">
+            <h1>코로나19 사태 이후 취업률 분석 사이트</h1>
+        </div>
+        <div class="chart__img">
+            <img src="image/chart.png" alt="chart image" class="intro__img">
+        </div>
+        <div class="intro__des">
+            <p>빅데이터 분석을 활용한 년도별 직업, 채용정보 데이터를 제공합니다.</p>
+        </div>
+        <div class="img__data">
+        <div class="result__title"><h1>시각화 자료</h1></div>
+        <div class="img__data-img">
+            <img src="/19년/막대/1분기.png" alt="" class="img__data-img1">
+            <img src="/20년/막대/1분기.png" alt="" class="img__data-img1">
+            <img src="/19vs20 1분기 꺽은선.png" alt="" class="img__data-img1">
+        </div>
+        <div class="img__data-img">
+            <img src="/시계열 분석/시계열분석3.png" alt="" class="img__data-img1">
+            <img src="/시계열 분석/시계열분석1.png" alt="" class="img__data-img1">
+            <img src="/2020년 코로나 사태이후 언급이 많이된 직종.png" alt="" class="img__data-img2">
+        </div>
+        </div>
+        <div class="result__title"><h1>분석 결과</h1></div>
+        <div class="result">
+            <img src="/image/result.png" alt="" class="result__img">
+        </div>
+        <div class="result2">
+            <img src="/image/result2.png" alt="" class="result__img2">
+        </div>
+    </section>
+        
+    <!-- information -->
+    <section id="info"></section>
+    <!-- contact -->
+    <section id="contact" data-link="#contact">
+            <h1 class="contact__title" data-link="#contact">문의사항이 있으신가요?</h1>
+            <h2 class="contact__email">wjdgns778@naver.com</h2>
+            <p class="contact__rights">2020 Guinong - All rights reserved</p>
+            <div class="about__univ">
+                <div class="univ">
+                    <img src="image/univ__logo.png" alt="GWNU" class="univ__logo"/>
+                    <div class="univ__discription">
+                        <p class="univ__name">강릉원주대학교 멀티미디어공학과</p>
+                        <p class="univ__member">김정훈, 김민석, 최동철, 권기열</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+<!-- Arrow up -->
+    <button class="arrow-up">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>

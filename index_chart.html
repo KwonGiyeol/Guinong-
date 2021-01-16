@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>차트데이터</title>
+	<script src="https://kit.fontawesome.com/fbf96448cb.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="image/leaf.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+</head>
+<body>
+    <!-- about -->
+    <nav id="goHome">
+        <div class="home__logo">
+            <a href="index.html" class="home__logo-icon"><i  class="fas fa-home"></i></a>
+            <h1 class="chart__data-title">차트데이터</h1>
+        </div>
+	</nav>
+	<div class="chart">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="/19년/막대/1월.png" class="chart-img"></div>
+				<div class="swiper-slide"><img src="/19년/막대/2월.png" class="chart-img"></div>
+				<div class="swiper-slide"><img src="/19년/막대/3월.png" class="chart-img"></div>
+				<div class="swiper-slide"><img src="/19년/막대/4월.png" class="chart-img"></div>
+				<div class="swiper-slide"><img src="/19년/막대/1분기.png" class="chart-img"></div>
+			</div>
+		</div>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="/20년/막대/1월.png" class="chart-img"></div>
+				<div class="swiper-slide"><img src="/20년/막대/2월.png" class="chart-img"></div>
+				<div class="swiper-slide"><img src="/20년/막대/3월.png" class="chart-img"></div>
+				<div class="swiper-slide"><img src="/20년/막대/4월.png" class="chart-img"></div>
+				<div class="swiper-slide"><img src="/20년/막대/1분기.png" class="chart-img"></div>
+			</div>
+		</div>
+	</div>
+	<div class="chart-text">
+		<div style="text-align:center; margin-top:5px;">2019년 1분기 전국 직종별 채용인원</div>
+		<div style="text-align:center; margin-top:5px;">2020년 1분기 전국 직종별 채용인원</div>
+	</div>
+	<div class="graph">
+		<img src="/19vs20 1분기 꺽은선.png" alt="" class="graph-img">
+	</div>
+	<div class="anal">
+			<img src="/시계열 분석/시계열분석1.png" alt="" style="width:40%; height:35%;">
+			<img src="/시계열 분석/시계열분석3.png" alt="" style="width:40%; height:35%;">
+		</div>
+	<div class="anal2">
+		<img src="/시계열 분석/시계열분석2.png" alt="" style="width:40%; height:35%;">
+		<img src="/시계열 분석/시계열분석4.png" alt="" style="width:40%; height:35%;">
+	</div>
+	<div class="wordcloud">	
+		<img src="/2020년 코로나 사태이후 언급이 많이된 직종.png" alt="" class="wordcloud-img">
+	</div>
+<h2 style="text-align: center; padding-bottom: 80px; border-bottom: 1px solid var(--color-dark-white);">2020년 코로나19 사태이후 언급이 많이된 직종</h2>
+<section id="contact">
+	<h1 class="contact__title" data-link="#contact">문의사항이 있으신가요?</h1>
+	<h2 class="contact__email">wjdgns778@naver.com</h2>
+	<p class="contact__rights">2020 Guinong - All rights reserved</p>
+	<div class="about__univ">
+		<div class="univ">
+			<img src="image/univ__logo.png" alt="GWNU" class="univ__logo"/>
+			<div class="univ__discription">
+				<p class="univ__name">강릉원주대학교 멀티미디어공학과</p>
+				<p class="univ__member">김정훈, 김민석, 최동철, 권기열</p>
+			</div>
+		</div>
+</section>
+	<script>
+
+		new Swiper('.swiper-container');
+		
+		</script>
+    </body>
+</html>
